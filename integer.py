@@ -15,9 +15,9 @@ def main():
 
     # if.. else if.. else statement to check
     # if user int is positive, negative or zero.
-    if (user_int >= 1):
+    if user_int >= 1:
         print("Oh. Your integer ({}) is positive.".format(user_int))
-    elif (user_int <= -1):
+    elif user_int <= -1:
         print("Oh. Your integer ({}) is negative.".format(user_int))
     else:
         print("Oh. Your integer ({}) is zero.".format(user_int))
